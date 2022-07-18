@@ -1,0 +1,19 @@
+[package]
+name = "urlencoding"
+version = "1.0.0"
+description = "A library for doing URL percentage encoding"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/liburlencoding"
+repository = "https://github.com/thechampagne/liburlencoding"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "urlencoding"
+crate-type =["dylib","staticlib"]
+
+[dependencies]
+urlencoding = "2.1.0"
