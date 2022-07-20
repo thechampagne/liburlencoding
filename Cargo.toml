@@ -13,7 +13,7 @@ edition = "2021"
 
 [lib]
 name = "urlencoding"
-crate-type =["dylib","staticlib"]
+crate-type =["cdylib","staticlib"]
 
 [dependencies]
 urlencoding = "2.1.0"
